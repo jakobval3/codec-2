@@ -1,0 +1,204 @@
+html{
+    font-family: Helvetica;
+    font-size: 22px;
+    color:seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+/* HEADER */
+
+header{
+    background-color: black;
+    align-items: center;
+    display: inline-flex;
+    width: 100%;
+}
+
+.background-container{
+    height: 50px;
+    display: block;
+}
+
+.background{
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-tea-cozy-logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 200px;
+    height: 50px;
+}
+
+nav{
+    text-decoration: underline 1px;
+    width:100%;
+    text-align: right;
+    /* align-content: flex-end; */
+}
+
+nav li{
+    display: inline-flex;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* JUMBOTRON */
+
+body{
+    display: block;
+    align-items: center;
+    background-color: black;
+}
+
+/* .jumbotron-text-container{
+    padding: 15px 30px;
+    background-color: black;
+    display: flex;
+    align-items: center; 
+}*/
+
+.jumbotron{
+    height: 700px;
+    width: 100%;
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    text-align: center;
+    display: block;
+    justify-content: center;
+}
+
+.jumbotron-text{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    margin-top: 200px;
+    
+}
+
+/* from this point foerward this site is built only for laptops+ (screen width:1000+px)
+we'll work on  that in a bit */
+
+/* ADVERTISING PART  */
+
+
+ body{
+    display: block;
+    justify-items: center;
+} 
+
+.ttcontainer{
+    background-color: black;
+    display: block;
+    justify-items: center;
+    text-align: center;
+    
+}
+.tt{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: black;
+    
+}
+
+.advertising{
+    text-align: center;
+    display: block;
+    justify-content: center;
+}
+
+
+
+a{
+    justify-content: space-between;
+}
+
+a img{
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+/* LOCATIONS BOX */
+
+.locations-container{
+    display: inline-block;
+    justify-content: center;
+    height: 500px;
+    width: 1200px;
+}
+
+.locations-background{
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg');
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.downtown{
+    width:300px;
+    height:300px;
+    margin-left:20px;
+    margin-right: 20px;
+    margin-top: 15px;
+    text-align: center;
+    opacity: 1;
+    background-color: black;
+}
+
+.east-bayside{
+    width:300px;
+    height:300px;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    opacity:1;
+    background-color: black;
+}
+
+.oakdale{
+    width:300px;
+    height:300px;
+    margin-top: 15px;
+    margin-left: 20px;
+    opacity: 1;
+    text-align: center;
+    background-color: black;
+}
+
+.locations-box{
+    display: inline-flex;
+    justify-items: center;
+    height:500px;
+}
+
+li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+li::marker{
+    color: transparent;
+}
+
+ul{
+    padding-inline-start: 0px;
+}
+
+/* THE FOOTER */
+
+footer{ 
+    text-align: center;
+    background-color: black;
+    width:100%;
+    margin-top: 100px;
+}
+
+.copyright{
+    text-align: left;
+    margin-left: 20px;
+}
