@@ -50,12 +50,6 @@ body{
     background-color: black;
 }
 
-/* .jumbotron-text-container{
-    padding: 15px 30px;
-    background-color: black;
-    display: flex;
-    align-items: center; 
-}*/
 
 .jumbotron{
     height: 700px;
@@ -76,9 +70,6 @@ body{
     margin-top: 200px;
     
 }
-
-/* from this point foerward this site is built only for laptops+ (screen width:1000+px)
-we'll work on  that in a bit */
 
 /* ADVERTISING PART  */
 
