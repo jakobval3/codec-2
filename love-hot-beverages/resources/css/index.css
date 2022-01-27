@@ -33,7 +33,6 @@ nav{
     text-decoration: underline 1px;
     width:100%;
     text-align: right;
-    /* align-content: flex-end; */
 }
 
 nav li{
@@ -99,8 +98,6 @@ body{
     display: block;
     justify-content: center;
 }
-
-
 
 a{
     justify-content: space-between;
